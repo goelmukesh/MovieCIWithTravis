@@ -4,4 +4,5 @@ dotnet: 2.1.4
 script:
  - dotnet restore
  - dotnet build
- - dotnet test --project test.csproj
+ - cd test
+ - dotnet test
